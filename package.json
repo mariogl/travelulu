@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compiler-css": "sass src/sass/styles.scss public/css/styles.css",
+    "compiler-css:dev": "sass src/sass/styles.scss public/css/styles.css -w"
   },
   "keywords": [],
   "author": "",
